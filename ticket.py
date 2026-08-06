@@ -3,6 +3,8 @@ class Ticket:
         title = title.strip()
         description = description.strip()
         priority = priority.strip()
+        if not description:
+            raise ValueError("La descripción no puede estar vacía")
         priority = priority.lower()
         if priority not in ("high", "medium", "low"):
             raise ValueError("Prioridad no válida")

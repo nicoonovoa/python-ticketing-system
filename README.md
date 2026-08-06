@@ -36,7 +36,7 @@ python main.py
 - [x] Implement the basic `Ticket` class.
 - [x] Add ticket priority validation.
 - [x] Add methods to close and reopen tickets.
-- [ ] Validate empty ticket descriptions.
+- [x] Validate empty ticket descriptions.
 - [ ] Implement the `TicketManager` class.
 - [ ] Assign unique ticket IDs automatically.
 - [ ] Add an interactive command-line interface to `main.py`.
