@@ -41,4 +41,4 @@ python main.py
 - [ ] Assign unique ticket IDs automatically.
 - [ ] Add an interactive command-line interface to `main.py`.
 - [ ] Save and load tickets using `storage.py`.
-- [ ] Add automated tests.
+- [x] Add automated tests.
